@@ -1,0 +1,149 @@
+html {
+    width: 95%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    margin: 20px;
+    display: block;
+
+}
+
+h1, h2, h3.contact {
+    color: #2BB673;
+}
+
+h1 {
+    padding: 10px 0px;
+    margin: 0% 8%;
+    text-align: center;
+    font-size: 3em;
+    border-bottom: 3px dotted #6D6E71;
+}
+
+h3, h3>p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sectionContent, .sectionDescription {
+    vertical-align: top;
+}
+
+.sectionContent {
+    margin-bottom: 2.5em;
+}
+
+div>h2 {
+    clear: both;
+}
+
+span.big {
+    font-size: 1.2em;
+}
+
+.jDetails {
+    color: #6D6E71;
+    display: inline-block;
+    float: left;
+    margin-top: 0;
+    width: 20%;
+    clear: both;
+    padding-right: 5%;
+}
+
+.sectionDescription {
+    text-align: justify;
+    left: 50%;
+    margin: 0 0;
+    width: 99%;
+}
+p.body {
+    margin-top: 0;
+}
+
+a:link {
+    color: inherit;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #6D6E71;
+}
+
+h2 {
+    padding: 0 0 0 1%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    position: relative;
+    text-align: center;
+}
+
+h2:before{
+    content: "";
+    display: block;
+    border-top: dotted 3px #6D6E71;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+
+h2 span {
+    background: #fff;
+    padding: 0 20px;
+    position: relative;
+    z-index: 5;
+}
+
+div#contact {
+    float: left;
+    width: 20%;
+    padding-right: 4%;
+}
+
+img {
+    float: left;
+    padding: 0 5% 2.5% 1%;
+    max-height: 142.5px;
+}
+
+div#contact>article>p {
+    margin: 0;
+}
+
+@media only screen and (max-width: 580px) {
+
+}
+
+@media only screen and (max-width: 800px) {
+
+body {
+    font-size: 75%;
+}
+
+.jDetails {
+    width: 100%;
+    text-align: center;
+}
+
+.sectionDescription{
+    clear: both;
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+    margin: auto;
+    clear: both;
+}
+img {
+    clear: both;
+    margin: auto;
+}
+}
